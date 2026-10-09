@@ -3,8 +3,20 @@
   "name": "ai.telenow/telenow",
   "title": "Telenow — AI Phone Calls & Voice Agents",
   "description": "Place phone calls, run calling campaigns and build voice agents from your own Telenow numbers.",
-  "version": "1.0.0",
-  "websiteUrl": "https://telenow.ai/docs/assistant-connectors",
+  "version": "1.0.1",
+  "websiteUrl": "https://telenow.ai",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/TelenowAI/Telenow-AI-MCP/main/assets/logo-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    },
+    {
+      "src": "https://raw.githubusercontent.com/TelenowAI/Telenow-AI-MCP/main/assets/logo.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
   "repository": {
     "url": "https://github.com/TelenowAI/Telenow-AI-MCP",
     "source": "github"
@@ -12,7 +24,23 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://api.telenow.ai/mcp"
+      "url": "https://api.telenow.ai/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional organization API key. Leave empty to sign in with OAuth instead. A read-only key gives read-only tools.",
+          "value": "Bearer {api_key}",
+          "isRequired": false,
+          "isSecret": true,
+          "variables": {
+            "api_key": {
+              "description": "Telenow organization API key",
+              "placeholder": "vai_live_…",
+              "isSecret": true
+            }
+          }
+        }
+      ]
     }
   ]
 }
