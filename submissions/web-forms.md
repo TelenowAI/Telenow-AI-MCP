@@ -10,5 +10,5 @@ Auth:            OAuth 2.1 or API key (Bearer vai_live_…)
 Category:        Communication (alt: Marketing, Customer Support)
 Tags:            phone-calls, voice-ai, voice-agents, telephony, outbound-calling, call-campaigns, transcripts, oauth, remote
 Short desc:      Place phone calls, run calling campaigns and build voice agents from your own Telenow numbers.
-Contact:         https://telenow.ai/contact  (use the team email you want public)
+Contact email:   support@telenow.ai
 Logo:            https://raw.githubusercontent.com/TelenowAI/Telenow-AI-MCP/main/assets/logo-512.png

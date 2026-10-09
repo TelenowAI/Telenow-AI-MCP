@@ -140,7 +140,7 @@ Calls are billed per minute from your organization's wallet, within your spend l
 ## Support
 
 - Docs: https://telenow.ai/docs
-- Contact: https://telenow.ai/contact
+- Email: support@telenow.ai · Contact: https://telenow.ai/contact
 - Privacy: https://telenow.ai/privacy · Terms: https://telenow.ai/terms · Phone: +1 (605) 597-8532
 
 ## License

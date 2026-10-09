@@ -10,7 +10,7 @@ Categories: Communication, Sales, Customer support
 Docs URL: https://telenow.ai/docs/assistant-connectors
 Privacy policy URL: https://telenow.ai/privacy
 Terms URL: https://telenow.ai/terms
-Support contact: https://telenow.ai/contact (or your team email)
+Support contact: support@telenow.ai
 Logo: assets/logo-512.png (+ SVG)
 Example prompts: (5 from the playbook)
 Test account: reviewer login for a test org with a funded wallet (~$10), one number, spend limit set
