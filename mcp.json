@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "telenow": {
+      "url": "https://api.telenow.ai/mcp"
+    }
+  }
+}

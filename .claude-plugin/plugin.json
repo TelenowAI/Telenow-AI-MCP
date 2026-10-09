@@ -1,0 +1,14 @@
+{
+  "name": "telenow",
+  "version": "1.0.0",
+  "description": "Let Claude make real phone calls: place calls from your own Telenow numbers, read transcripts, build voice agents and run calling campaigns.",
+  "author": {
+    "name": "Telenow",
+    "email": "support@telenow.ai",
+    "url": "https://telenow.ai"
+  },
+  "homepage": "https://telenow.ai/docs/assistant-connectors",
+  "repository": "https://github.com/telenow/telenow-mcp",
+  "license": "MIT",
+  "keywords": ["phone-calls", "voice-ai", "voice-agents", "telephony", "campaigns"]
+}

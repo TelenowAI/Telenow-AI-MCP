@@ -1,0 +1,15 @@
+{
+  "name": "telenow",
+  "displayName": "Telenow — AI Phone Calls",
+  "version": "1.0.0",
+  "description": "Let your AI assistant make real phone calls: place calls from your own numbers, get transcripts, build voice agents and run calling campaigns.",
+  "author": {
+    "name": "Telenow",
+    "email": "support@telenow.ai"
+  },
+  "homepage": "https://telenow.ai/docs/assistant-connectors",
+  "repository": "https://github.com/telenow/telenow-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "phone-calls", "voice-ai", "voice-agents", "telephony", "outbound-calling", "campaigns"],
+  "logo": "assets/logo.svg"
+}

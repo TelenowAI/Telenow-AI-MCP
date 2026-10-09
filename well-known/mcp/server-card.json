@@ -1,0 +1,32 @@
+{
+  "serverInfo": {
+    "name": "telenow",
+    "title": "Telenow — AI Phone Calls & Voice Agents",
+    "version": "1.0.0"
+  },
+  "description": "Place phone calls, run calling campaigns and build voice agents from your own Telenow numbers.",
+  "websiteUrl": "https://telenow.ai/docs/assistant-connectors",
+  "authentication": {
+    "required": true,
+    "schemes": ["oauth2", "bearer"]
+  },
+  "tools": [
+    {"name": "list_numbers", "description": "List the phone numbers the assistant may call from. The first is the default caller ID.", "annotations": {"readOnlyHint": true}},
+    {"name": "place_call", "description": "Place one real phone call with the built-in calling agent or one of your agents. Returns a call_id at once.", "annotations": {"readOnlyHint": false, "destructiveHint": true, "openWorldHint": true}},
+    {"name": "get_call", "description": "Get one call by call_id: status, outcome, summary and transcript.", "annotations": {"readOnlyHint": true}},
+    {"name": "list_calls", "description": "List recent inbound and outbound calls on the assistant's numbers, newest first.", "annotations": {"readOnlyHint": true}},
+    {"name": "list_agents", "description": "List the organization's voice agents, most recently changed first.", "annotations": {"readOnlyHint": true}},
+    {"name": "get_agent", "description": "Get one agent's full configuration, with keys masked.", "annotations": {"readOnlyHint": true}},
+    {"name": "create_agent", "description": "Create a single-context voice agent from a name and system prompt.", "annotations": {"readOnlyHint": false, "destructiveHint": false}},
+    {"name": "create_flow_agent", "description": "Create a multi-step voice agent defined as a graph of nodes and edges.", "annotations": {"readOnlyHint": false, "destructiveHint": false}},
+    {"name": "update_agent", "description": "Change an agent this assistant created.", "annotations": {"readOnlyHint": false, "destructiveHint": false}},
+    {"name": "list_voices", "description": "List voices an agent can use, each with an audio sample.", "annotations": {"readOnlyHint": true}},
+    {"name": "estimate_cost", "description": "Estimate the cost per minute in USD for an existing or planned agent.", "annotations": {"readOnlyHint": true}},
+    {"name": "list_campaigns", "description": "List calling campaigns on the assistant's numbers, newest first.", "annotations": {"readOnlyHint": true}},
+    {"name": "get_campaign", "description": "Get one campaign and its per-person results.", "annotations": {"readOnlyHint": true}},
+    {"name": "create_campaign", "description": "Create a calling campaign as a draft. Nothing is dialed.", "annotations": {"readOnlyHint": false, "destructiveHint": false}},
+    {"name": "add_campaign_targets", "description": "Add up to 1,000 people to a campaign this assistant created.", "annotations": {"readOnlyHint": false, "destructiveHint": true, "openWorldHint": true}},
+    {"name": "start_campaign", "description": "Start or resume a campaign this assistant created.", "annotations": {"readOnlyHint": false, "destructiveHint": true, "openWorldHint": true}},
+    {"name": "pause_campaign", "description": "Pause a campaign. No new people are dialed; calls in progress finish.", "annotations": {"readOnlyHint": false, "destructiveHint": false}}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.telenow/telenow",
+  "title": "Telenow — AI Phone Calls & Voice Agents",
+  "description": "Place phone calls, run calling campaigns and build voice agents from your own Telenow numbers.",
+  "version": "1.0.0",
+  "websiteUrl": "https://telenow.ai/docs/assistant-connectors",
+  "repository": {
+    "url": "https://github.com/telenow/telenow-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.telenow.ai/mcp"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "telenow",
+  "version": "1.0.0",
+  "description": "Make real phone calls, build voice agents and run calling campaigns from Gemini CLI.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "telenow": {
+      "httpUrl": "https://api.telenow.ai/mcp"
+    }
+  }
+}
