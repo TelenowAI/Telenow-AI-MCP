@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "websiteUrl": "https://telenow.ai/docs/assistant-connectors",
   "repository": {
-    "url": "https://github.com/telenow/telenow-mcp",
+    "url": "https://github.com/TelenowAI/Telenow-AI-MCP",
     "source": "github"
   },
   "remotes": [

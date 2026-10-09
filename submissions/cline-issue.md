@@ -1,6 +1,6 @@
 # cline/mcp-marketplace — new issue (MCP Server Submission template)
 
-**GitHub Repository URL:** https://github.com/telenow/telenow-mcp
+**GitHub Repository URL:** https://github.com/TelenowAI/Telenow-AI-MCP
 
 **Logo:** attach assets/logo-400.png (400×400 PNG)
 

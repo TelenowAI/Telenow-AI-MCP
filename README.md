@@ -93,7 +93,7 @@ A read-only key gives read-only tools; a write-capable key has full permissions 
 
 ### Gemini CLI
 ```bash
-gemini extensions install https://github.com/telenow/telenow-mcp
+gemini extensions install https://github.com/TelenowAI/Telenow-AI-MCP
 ```
 
 ### Grok
@@ -140,8 +140,8 @@ Calls are billed per minute from your organization's wallet, within your spend l
 ## Support
 
 - Docs: https://telenow.ai/docs
-- Email: support@telenow.ai
-- Privacy: https://telenow.ai/privacy · Terms: https://telenow.ai/terms
+- Contact: https://telenow.ai/contact
+- Privacy: https://telenow.ai/privacy · Terms: https://telenow.ai/terms · Phone: +1 (605) 597-8532
 
 ## License
 

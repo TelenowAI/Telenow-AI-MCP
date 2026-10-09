@@ -13,7 +13,7 @@ meta:
 about:
   title: Telenow
   description: Place real phone calls, read transcripts, build voice agents and run outbound calling campaigns from your own Telenow numbers
-  icon: https://www.google.com/s2/favicons?domain=telenow.ai&sz=64
+  icon: https://raw.githubusercontent.com/TelenowAI/Telenow-AI-MCP/main/assets/logo-512.png
 remote:
   transport_type: streamable-http
   url: https://api.telenow.ai/mcp
